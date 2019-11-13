@@ -11,26 +11,33 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'PagesController@index');
+Route::get('/o-nama', 'PagesController@onama');
+Route::get('/cenovnik', 'PagesController@cenovnik');
+Route::get('/kontakt', 'PagesController@kontakt');
+Route::get('/posao', 'PagesController@posao');
+Route::get('/galerija', 'PagesController@galerija');
 
-Route::get('/o-nama', function () {
-    return view('o-nama');
-});
+// Route::get('/', function () {
+//     return view('index');
+// });
 
-Route::get('/cenovnik', function () {
-    return view('cenovnik');
-});
+// Route::get('/o-nama', function () {
+//     return view('o-nama');
+// });
 
-Route::get('/kontakt', function () {
-    return view('kontakt');
-});
+// Route::get('/cenovnik', function () {
+//     return view('cenovnik');
+// });
 
-Route::get('/posao', function () {
-    return view('posao');
-});
+// Route::get('/kontakt', function () {
+//     return view('kontakt');
+// });
 
-Route::get('/galerija', function () {
-    return view('galerija');
-});
+// Route::get('/posao', function () {
+//     return view('posao');
+// });
+
+// Route::get('/galerija', function () {
+//     return view('galerija');
+// });
