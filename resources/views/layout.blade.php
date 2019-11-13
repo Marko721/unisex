@@ -113,6 +113,6 @@
     crossorigin="anonymous"></script>
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
     
-    <script src="inc/script.js"></script>
+    <script src="public/js/app.js"></script>
     </body>
     </html>

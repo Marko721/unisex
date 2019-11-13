@@ -11100,7 +11100,8 @@ a.text-dark:focus {
   }
 }
 body {
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Raleway', sans-serif;
+  background-color: #fff; }
 
 hr {
   margin: 0px; }
