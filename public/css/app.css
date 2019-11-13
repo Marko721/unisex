@@ -11103,6 +11103,7 @@ a.text-dark:focus {
 body {
   font-family: "Raleway", sans-serif !important;
   background-color: #fff !important;
+  font-size: 1rem;
 }
 
 hr {
