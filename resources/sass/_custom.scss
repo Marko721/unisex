@@ -1,0 +1,118 @@
+body {
+    font-family: 'Raleway', sans-serif !important;
+    background-color: #fff !important;
+}
+
+hr {
+    margin: 0px;
+}
+
+.navbar.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+
+// #logo-main {
+//     display: block;
+//     margin-left: auto;
+//     margin-right: auto;
+//     margin-top: 10px;
+//     margin-bottom: 10px;
+// }
+
+.navbar .nav-link {
+    text-align: center;
+    border-bottom: 1px solid transparent;
+}
+
+.navbar .nav-link:hover{
+    transition: border 0.2s;
+    border-bottom: 1px solid #ffc107;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:55.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    width:100%;
+    height: 90%;
+    position:absolute;
+}
+
+#footer .nav-link:hover {
+    color: #ffc107 !important; 
+}
+
+#jumbo {
+    background-image: url("../images/jumbo.jpg");
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#onama {
+   background-image: url("../images/onama.jpg");
+   min-height: 600px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  #image-gallery .modal-footer{
+    display: block;
+  }
+  
+  .thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+    #carousel {
+        background-image: url("../images/2.jpg");
+        min-height: 600px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .navbar .nav-link:hover{
+        transition: border 0.2s;
+        border-bottom: 1px solid #ffffff;
+    }
+
+}
+
+@media (min-width: 576px) { 
+
+ }
+
+ // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .footer-info {
+        text-align: left !important;
+    }
+    #logofoot {
+        text-align: left !important;
+    }
+ }
+
+
+ // Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+
+}

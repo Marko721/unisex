@@ -15,7 +15,7 @@
         Organizacija i ekspeditivnost našeg tima se odlikuje u tome da se vreme klijenta poštuje, samim tim kod nas nema čekanja već se tretman obavlja u zakazanom terminu.<br>
         Mi zaista uživamo u onome što radimo i konstantno pratimo svetske trendove i unapređujemo svoje usluge.
         Proverite zašto Unisex frizerski salon godinama unazad opravdava poverenje svojih klijenata.<br><br>
-        <a class="text-warning" href="kontakt.html">Zakažite svoj termin vec danas <i class="fa fa-arrow-right"></i> </a>
+        <a class="text-warning" href="/kontakt">Zakažite svoj termin vec danas <i class="fa fa-arrow-right"></i> </a>
 </div>
 
     

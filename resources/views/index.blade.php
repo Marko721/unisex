@@ -32,7 +32,7 @@
       <h3 class="mb-5">Ko smo mi</h3>
       <p class="lead">Frizerski salon "Unisex" osnovan je 2001. godine i radi u službi Vaše lepote. Sa višegodišnjim iskustvom i na hiljade zadovoljnih mušterija, slobodno mozemo da se pohvalimo visokokvalitetnom uslugom.
         U prijatnom i moderno opremljenom prostoru, dočekace Vas naše stručno osoblje koje je uvek spremno da ispuni sve Vaše želje i zahteve, isto tako i da vam ponudi neke nove ideje.</p>
-      <a class="text-warning" href="o-nama.html">Saznajte više <i class="fa fa-arrow-right"></i> </a>
+      <a class="text-warning" href="/o-nama">Saznajte više <i class="fa fa-arrow-right"></i> </a>
     </div>
     <div class="col-lg-6">
       <img src="images/tunel1.jpg" class="img-fluid" alt="">
