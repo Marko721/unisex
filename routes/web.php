@@ -12,5 +12,25 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+
+Route::get('/o-nama', function () {
+    return view('o-nama');
+});
+
+Route::get('/cenovnik', function () {
+    return view('cenovnik');
+});
+
+Route::get('/kontakt', function () {
+    return view('kontakt');
+});
+
+Route::get('/posao', function () {
+    return view('posao');
+});
+
+Route::get('/galerija', function () {
+    return view('galerija');
 });
