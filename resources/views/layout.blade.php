@@ -32,22 +32,22 @@
         
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto">
-                <li class="nav-item active">
+              <li class="nav-item {{ Request::path() === '/' ? 'active' : '' }}">
                     <a href="/" class="nav-link">Početna</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item {{ Request::path() === 'o-nama' ? 'active' : '' }}">
                     <a href="/o-nama" class="nav-link">O nama</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item {{ Request::path() === 'cenovnik' ? 'active' : '' }}">
                     <a href="/cenovnik" class="nav-link">Cenovnik</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item {{ Request::path() === 'kontakt' ? 'active' : '' }}">
                     <a href="/kontakt" class="nav-link">Kontakt</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item {{ Request::path() === 'posao' ? 'active' : '' }}">
                     <a href="/posao" class="nav-link">Posao</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item {{ Request::path() === 'galerija' ? 'active' : '' }}">
                     <a href="/galerija" class="nav-link">Galerija</a>
                 </li>
             </ul>
